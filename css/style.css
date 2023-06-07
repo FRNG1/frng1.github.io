@@ -496,32 +496,28 @@ footer ul li a:hover {
   }
 }
 /* Swiper */
-  body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.swiper {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	color: #000;
+	display: flex;
+	margin: 0;
+    padding: 0;
+	justify-content: center;
+	align-items: center;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
