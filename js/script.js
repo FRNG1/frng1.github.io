@@ -58,16 +58,14 @@ function reset() {
   counters.forEach((counter) => (counter.innerHTML = '0'));
 }
 
-    var swiper = new Swiper(".mySwiper", {
-      cssMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      mousewheel: true,
-      keyboard: true,
-    });
+var swiper = new Swiper(".mySwiper", {
+	direction: "vertical",
+	slidesPerView: 1,
+	spaceBetween: 30,
+	mousewheel: true,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+});
 
